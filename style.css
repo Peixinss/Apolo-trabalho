@@ -1,0 +1,189 @@
+
+/*body*/
+
+body{
+    font-family: 'Poppins',sans-serif;
+}
+
+/*cabecario*/
+
+.navbar{
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+    background-color: #7B68EE;
+    padding: 15px ;
+    color: white;
+    border-radius: 10px;
+}
+.menu-direito{
+    display:flex ;
+    gap: 20px;
+}
+.menu-direito a{
+    text-decoration: none;
+    color: white;
+    margin-top: -5px;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: -1px;
+    font-family: 'Montserrat',sans-serif;
+    margin-top: -8px;
+}
+.topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.linha-topo{
+    margin: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.linha-busca{
+    margin-top: 35px !important;
+    margin-left: -72px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    
+    
+}
+.linha-busca input{
+
+    border: 1px solid #ccc;
+    margin-left: 8px;
+    width: 300px;
+    padding: 10px;
+    border-right: none;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+}
+.linha-busca input :focus{
+    border-color: #7B68EE;
+}
+.linha-busca button:hover{
+    background-color: #7B68EE;
+}
+.linha-busca form{
+    display: flex;
+}
+.lado-esquerdo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.linha-busca button{
+    
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-radius: 0 20px 20px 0;
+    background-color: white;
+    color:white
+
+}.menu-direito a{
+    padding: 8px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.menu-direito a:hover{
+    background-color: rgba(255,255,255, 0.2);
+}
+.logo{
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.container{
+    display: flex;
+}
+.sidebar{
+    width: 105px;
+    padding: 20px;
+    background-color: #7B68EE;
+    border-radius: 8px;
+    color: white;
+}
+.sidebar ul{
+    list-style: disc;
+    padding: 0;
+}
+.sidebar li{
+    margin: 10px 0;
+    cursor: pointer;
+}
+.sidebar li:hover{
+    color: rgba(255,255,255, 0.2);
+}
+main{
+    margin: 8px;
+}
+/*Produtos*/
+
+.produtos{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+
+}
+.produtos button{
+    display: inline-block;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    background-color:#7B68EE ;
+    color: white;
+    cursor: pointer;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+    transition: 0.3s;
+    border: 2px solid #ccc;
+}
+.card img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card :hover{
+    border:#7B68EE;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.preco{
+    font-weight: bold;
+    margin-top: auto;
+}
+.card button{
+    display: inline-block;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: #7B68EE;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.card button:hover{
+    background-color: #7B68EE;
+    transform: scale(1.05);
+}
