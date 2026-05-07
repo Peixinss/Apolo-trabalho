@@ -4,7 +4,6 @@
 body{
     font-family: 'Poppins',sans-serif;
 }
-
 /*cabecario*/
 
 .navbar{
@@ -129,6 +128,13 @@ main{
 }
 /*Produtos*/
 
+.card-link{
+    flex: 1;
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
 .produtos{
     flex: 1;
     display: flex;
@@ -153,10 +159,13 @@ main{
     background-color: white;
     border-radius: 10px;
     padding: 15px;
-    width: 300px;
+    width: 230px;
     text-align: center;
     transition: 0.3s;
-    border: 2px solid #ccc;
+    border: 3px solid #ccc;
+    min-height: 450px;
+    align-items: center;
+    min-height: 420px;
 }
 .card img{
     width: 100%;
@@ -164,10 +173,9 @@ main{
     object-fit: cover;
     border-radius: 10px;
 }
-.card :hover{
-    border:#7B68EE;
-    transform: scale(1.05);
-    transition: 0.3s;
+.card:hover{
+    border:3px solid #7B68EE;
+    cursor: pointer;
 }
 .preco{
     font-weight: bold;
@@ -175,15 +183,20 @@ main{
 }
 .card button{
     display: inline-block;
-    padding: 12px 20px;
+    padding: 10px;
     border: none;
     border-radius: 30px;
     background-color: #7B68EE;
     color: white;
     cursor: pointer;
     margin-top: 10px;
+    width: 180px;
 }
 .card button:hover{
     background-color: #7B68EE;
-    transform: scale(1.05);
+    transition: 0.3s;
+    
+}
+.card h3{
+    min-height: 60px;
 }
