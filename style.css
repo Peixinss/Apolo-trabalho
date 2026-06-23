@@ -193,4 +193,12 @@ main{
     transform: translateY(-4px);
     box-shadow: 0 8px 20px rgba(123, 104, 238, 0.25);
 }
+ul, li{
+    list-style-type: none;
+    border-bottom: 1px dashed #ccc; 
+    padding: 10px 0;
+}
+ul li:last-child {
+  border-bottom: none;
+}
 
