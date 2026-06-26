@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Camiseta Dri-FIT Nike Park Masculina - Apólo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="imagens/logo.png">
+    <script src="/script.js"></script>
+    <link rel="stylesheet" href="/styleProdutos.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="topo">
+            <div class="lado-esquerdo">
+                <a href="/index.html" class="logo">
+                    <div class="logo">Apólo</div>
+                    </a>
+                    <div class="linha-busca">
+                
+                    <form>
+                        <input type="text" placeholder="O que você está procurando?">
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+            <div class="menu-direito">
+                <a href="#"> 📎 Acessibilidades</a>
+                <a href="#"> ❔ Tire suas duvidas</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="breadcrumb">
+        <a href="/index.html">Home</a> › <a href="/lista/roupas.html">Roupas</a> › Camiseta Dri-FIT
+    </div>
+
+    <div class="produto-container">
+
+        <div class="produto-galeria">
+            <img id="foto-principal"
+                src="https://imgnike-a.akamaihd.net/768x768/095231IDA2.jpg"
+                alt="Camiseta Dri-FIT">
+            <div class="miniaturas">
+                <img class="ativa"
+                    src="https://imgnike-a.akamaihd.net/768x768/095231IDA2.jpg"
+                    alt="Vista frontal"
+                    onclick="trocarFoto(this, 'https://imgnike-a.akamaihd.net/768x768/095231IDA2.jpg')">
+                <img
+                    src="https://imgnike-a.akamaihd.net/768x768/095231IDA3.jpg"
+                    alt="Vista lateral"
+                    onclick="trocarFoto(this, 'https://imgnike-a.akamaihd.net/768x768/095231IDA3.jpg')">
+                <img
+                    src="https://imgnike-a.akamaihd.net/768x768/095231IDA4.jpg"
+                    alt="Detalhe"
+                    onclick="trocarFoto(this, 'https://imgnike-a.akamaihd.net/768x768/095231IDA4.jpg')">
+            </div>
+        </div>
+        <div class="produto-info">
+
+            <h1>Camiseta Dri-FIT Nike Park Masculina - Roupa</h1>
+
+            <div class="avaliacao">
+                <span class="estrelas">★★★★☆</span> 4.0 (140 avaliações)
+            </div>
+
+            <div class="preco-bloco">
+                <div class="preco-por">R$ 79,99</div>
+
+                <div class="preco-parcelado">ou 2x de R$ 39,99 sem juros</div>
+            </div>
+
+            <p class="descricao">
+               O Nike Dri-FIT é uma tecnologia de tecido de microfibra de poliéster de alto desempenho projetada para manter os atletas secos e confortáveis. Ela absorve o suor do corpo e o transporta para a superfície da peça, onde evapora rapidamente.
+            </p>
+
+            <div class="acoes">
+                <button class="btn-carrinho" onclick="adicionarCarrinho()">🛒 Adicionar ao Carrinho</button>
+                <button class="btn-favorito" title="Favoritar">♡</button>
+            </div>
+
+            <div class="frete">
+                🚚 Frete grátis para compras acima de R$ 199,00
+            </div>
+
+        </div>
+    </div>
+
+    <div class="specs-section">
+        <h2>Especificações</h2>
+        <div class="specs">
+            <div class="spec-item">
+                <div class="spec-label">Marca</div>
+                <div class="spec-valor">Nike</div>
+            </div>
+            <div class="spec-item">
+                <div class="spec-label">Material</div>
+                <div class="spec-valor">poliéster de microfibra</div>
+            </div>
+            <div class="spec-item">
+                <div class="spec-label">Garantia</div>
+                <div class="spec-valor">3 Meses(fabricante)</div>
+            </div>
+        </div>
+    </div>
+
+    <footer></footer>
+
+    
+    <div id="toast">✅ Produto adicionado ao carrinho!</div>
+
+</body>
+</html>
